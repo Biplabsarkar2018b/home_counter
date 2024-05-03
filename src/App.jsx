@@ -37,16 +37,16 @@ function App() {
     <div className="flex justify-center items-center h-screen">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">To Go Home</h1>
-        <div className="flex justify-center">
-          <div className="bg-gray-200 p-4 rounded-lg mr-4">
+        <div className="flex mobile:flex-col pc:flex-row gap-4 justify-center">
+          <div className="bg-gray-200 p-4 rounded-lg">
             <p className="text-2xl font-semibold">{timeLeft.days}</p>
             <p className="text-gray-500">Days</p>
           </div>
-          <div className="bg-gray-200 p-4 rounded-lg mr-4">
+          <div className="bg-gray-200 p-4 rounded-lg">
             <p className="text-2xl font-semibold">{timeLeft.hours}</p>
             <p className="text-gray-500">Hours</p>
           </div>
-          <div className="bg-gray-200 p-4 rounded-lg mr-4">
+          <div className="bg-gray-200 p-4 rounded-lg ">
             <p className="text-2xl font-semibold">{timeLeft.minutes}</p>
             <p className="text-gray-500">Minutes</p>
           </div>
