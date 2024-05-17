@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const arrivalDate = new Date('2024-05-11');
+      const arrivalDate = new Date('2024-05-20');
       const now = new Date();
       const difference = arrivalDate - now;
 
@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">To Go Home</h1>
+        <h1 className="text-4xl font-bold mb-4">To Go Office</h1>
         <div className="flex mobile:flex-col pc:flex-row gap-4 justify-center">
           <div className="bg-gray-200 p-4 rounded-lg">
             <p className="text-2xl font-semibold">{timeLeft.days}</p>
