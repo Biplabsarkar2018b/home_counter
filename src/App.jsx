@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const arrivalDate = new Date('2024-05-20');
+      const arrivalDate = new Date('2024-07-07');
       const now = new Date();
       const difference = arrivalDate - now;
 
